@@ -1,0 +1,81 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  height: 100%;
+  width: 100%;
+
+  position: relative;
+}
+.nav {
+  height: 90px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.5vw;
+  border-bottom: 1px solid black;
+}
+.logo {
+  font-size: 3vw;
+  font-weight: 500;
+}
+.nav-left {
+  display: flex;
+  gap: 4vw;
+}
+.content {
+  height: calc(100% - 90px);
+  width: 100%;
+
+  display: flex;
+}
+.left {
+  height: 100%;
+  width: 50%;
+
+  padding: 3vw 4vw;
+}
+.right {
+  height: 100%;
+  width: 50%;
+}
+.left h2 {
+  font-size: 3vw;
+  padding: 1.5vw 0vw;
+}
+.left p {
+  font-size: 1.5vw;
+  padding: 2vw 0vw;
+}
+.left button {
+  padding: 9px 22px;
+  font-size: 1.2vw;
+  border-radius: 0.4vw;
+  font-weight: 500;
+  margin: 4vw 0vw;
+  background-color: rgb(121, 121, 230);
+  color: white;
+}
+.left span {
+  color: rgb(121, 121, 230);
+}
+.nav-left button {
+  background-color: rgb(121, 121, 230);
+  padding: 5px 17px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+.nav-left h3:hover {
+  color: blue;
+  cursor: pointer;
+}
